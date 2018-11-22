@@ -20,3 +20,7 @@ Accompanying resources on theoretical part of [Carlos Fenollosa's OS tutorial](h
   * [0x10 wiki](https://en.wikipedia.org/wiki/INT_10H)
   * [Assembly registers](https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm)
   * [Writing Hello, World on BootLoader](http://www.sharetechnote.com/html/OS_WritingOS_BootLoader_asm.html)
+  
+* #### 03. Bootsector Memory
+  * [Addressing Modes](https://www.tutorialspoint.com/assembly_programming/assembly_addressing_modes.htm)
+  * [Guide to x86 Assembly](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html#memory)
