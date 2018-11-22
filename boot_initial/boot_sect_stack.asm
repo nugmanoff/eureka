@@ -11,15 +11,19 @@ push 'A'
 push 'B'
 push 'C'
 
+mov al, [0x7ffe] ; stack grows downwards from bp, so we fetch char at 0x8000 - 0x2 (which is first element)
+int 0x10
+mov al, [0x7ffc] ; here we print second element, which is 0x8000 - 0x4 (two 16-bit offset)
+int 0x10 
+mov al, [0x7ffa]
+int 0x10
+
 pop bx ; pop the value from the top of the stack to 'bx'
-mov al, bh ; we use lower portion of 'bx' which is 'bl' (contains 8-bit char)
+mov al, bl ; we use lower portion of 'bx' which is 'bl' (contains 8-bit char)
 int 0x10
 
 pop bx
 mov al, bl
-int 0x10
-
-mov al, [0x7ffe] ; directly accesses the element, which is 2 from top
 int 0x10
 
 pop bx
