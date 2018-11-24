@@ -28,3 +28,7 @@ Accompanying resources on theoretical part of [Carlos Fenollosa's OS tutorial](h
 * #### 04. Bootsector Stack
   * [Stack shortly explained](http://ee.sharif.edu/~sakhtar3/articles/8086/ASM%20Tutorial-Ready%20to%20Start!.htm#stack)
   * [Stack shortly explained v2](https://web.archive.org/web/20070822075422/http://www.emu8086.com/assembly_language_tutorial_assembler_reference/asm_tutorial_09.html)
+
+* #### 05-bootsector-functions-strings
+  * [Assembly instructions, pusha - popa](https://en.wikibooks.org/wiki/X86_Assembly/Other_Instructions)
+  * [Assembly ror instruction](https://www.aldeid.com/wiki/X86-assembly/Instructions/ror)
