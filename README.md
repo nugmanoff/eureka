@@ -12,6 +12,9 @@ For any suggestions & enquiries feel free to contact me on [Telegram](https://t.
 
 Accompanying resources on theoretical part of [Carlos Fenollosa's OS tutorial](https://github.com/cfenollosa/os-tutorial) to provide more thorough understanding of involved concepts.
 
+* ### General Purpose Resources
+  * [Stanislavs.org reference library on C/Assembly/Interrupts](http://stanislavs.org/helppc/idx_assembler.html)
+
 * #### 01. Bootsector Barebones
   * [Magic Numbers calculation explained](https://blog.ghaiklor.com/how-to-implement-your-own-hello-world-boot-loader-c0210ef5e74b)
   * [Intro to NASM](https://www.tutorialspoint.com/assembly_programming/index.htm)
