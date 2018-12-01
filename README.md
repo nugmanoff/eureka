@@ -35,3 +35,8 @@ Accompanying resources on theoretical part of [Carlos Fenollosa's OS tutorial](h
 * #### 05. Bootsector Functions & Strings
   * [Assembly instructions, pusha - popa](https://en.wikibooks.org/wiki/X86_Assembly/Other_Instructions)
   * [Assembly ror instruction](https://www.aldeid.com/wiki/X86-assembly/Instructions/ror)
+  
+* #### 08 - 10. Entering 32bit PM
+  * [GDT Tutorial](https://wiki.osdev.org/GDT_Tutorial)
+  * [GDT Explained in C](http://www.osdever.net/bkerndev/Docs/gdt.htm)
+  * *os-dev* chapters are really useful here
